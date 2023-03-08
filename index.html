@@ -58,9 +58,10 @@
         </div>
 
     
-        <!-- If we need navigation buttons -->
+        <!-- If we need navigation buttons 
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
+        -->
 
     </section>
     <div class="card">
@@ -86,6 +87,50 @@
             <a class="botoes__ancora" href="#">Saiba mais</a>
         </div>
     </div>
+
+    <!--Segunda Section -->
+    <section class="carrossel">
+        <h2 class="carrossel__titulo" >Mais vendidos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="imagens/Acessibilidade.svg" alt="Livro sobre Acessibilidade"></div>
+            <div class="swiper-slide"><img src="imagens/Construct2.svg" alt="Livro sobre Construct2"></div>
+            <div class="swiper-slide"><img src="imagens/MEAN.svg" alt="Livro sobre MEAN"></div>
+            <div class="swiper-slide"><img src="imagens/MetricasAgeis.svg" alt="Livro sobre Metricas Ageis"></div>
+            <div class="swiper-slide"><img src="imagens/Tuning.svg" alt="Livro sobre Tuning"></div>
+        </div>
+        
+        <div class="card">
+            <!-- 1ª linha -->
+        <div class="card__descricao">
+            <div class="descricao">
+                <!-- 1ª coluna -->
+                <img class="descricao__imagem_estrelinha" src="imagens/Estrelinhas.svg" alt="imagens de cinco estrelinhas alinhadas horizontalmente.">
+                <h3 class="descricao__titulo" >Autora do Mês</h3>
+                <h3 class="descricao__titulo-livro" >Juliana Agarikov</h3>
+                <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+            </div>
+            <!-- 2ª coluna -->
+            <img class="descricao__imagem" src="imagens/Perfil-escritora 1.svg" alt="Foto da escritora Juliana Agarikov. Mulher negra com roupa laranja florido.">
+        </div>
+        <!-- 2ª linha -->
+        <div class="card__botoes">
+            <!-- 1ª Coluna -->
+            <ul class="botoes">
+                <li class="botoes__item"><img src="imagens/Favoritos.svg" alt="icone de favoritos"></li>
+                <li class="botoes__item"><img src="imagens/Compra.svg" alt="icone de compras"></li>
+            </ul>
+            <!-- 2ª Coluna -->
+            <a class="botoes__ancora" href="#">Saiba mais</a>
+        </div>
+
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {

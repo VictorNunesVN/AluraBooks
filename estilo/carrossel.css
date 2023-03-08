@@ -61,6 +61,7 @@
     font-weight: 400;
     color: var(--preto);
     padding-bottom: 2em;
+    padding-right: 2em;
 }
 
 .botoes__ancora{
@@ -70,4 +71,8 @@
     font-size: 16px;
     font-weight: 700;
     color: var(--branco);
+}
+
+.descricao__imagem_estrelinha{
+    padding-bottom: 0.5em;
 }
