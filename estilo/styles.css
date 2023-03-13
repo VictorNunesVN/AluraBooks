@@ -2,6 +2,7 @@
 @import url("/estilo/banner.css");
 @import url("/estilo/carrossel.css");
 @import url("/estilo/topicos.css");
+@import url("/estilo/contatos.css");
 
 :root{
     --cor-de-fundo:#EBECEE;
