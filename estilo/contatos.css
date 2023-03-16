@@ -9,7 +9,7 @@
     font-family: var(--fonte-principal);
     font-size: 18px;
     font-weight: 500;
-    color: var(--azul-degrade);
+    color: var(--azul-escuro);
     background-clip: text;
 }
 
@@ -19,6 +19,7 @@
     font-size: 16px;
     padding: 1em 0 1em 0;
     line-height: 24px;
+    color: var(--azul-escuro);
 }
 
 .contato__email{
@@ -67,4 +68,21 @@ br{
         font-family: var(--fonte-principal);
         font-weight: 500;
     }
+}
+
+@media screen and (min-width: 1728px) {
+    .contato{
+        padding: 3em;
+    }
+    .contato__email{
+        width: 20%;
+    }
+    br{
+        display: none;
+    }
+    #br__contato-texto{
+        display: block;
+    }
+    
+    
 }
